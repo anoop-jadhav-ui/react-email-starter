@@ -6,12 +6,12 @@ const LogoWithBackground = () => {
     <Section style={logoContainer}>
       <div style={backgroundImageContainer}>
         <Img
-          src="/static/images/cd-template/background.png"
+          src="/static/images/courierDostTemplate/background.png"
           alt="Background Image"
           style={backgroundImage}
         />
         <Img
-          src="/static/images/cd-template/mainLogo.png"
+          src="/static/images/courierDostTemplate/mainLogo.png"
           alt="CourierDost Logo"
           style={logo}
         />

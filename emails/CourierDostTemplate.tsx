@@ -43,17 +43,17 @@ export const CourierDostEmail = () => (
               </Text>
             </Section>
             <Step
-              imageSrc="/static/images/cd-template/enterPickupRequests.png"
+              imageSrc="/static/images/courierDostTemplate/enterPickupRequests.png"
               title="1) Enter Pickup Requests"
               description="Parcel on the move! Receive updates until it reaches its destination."
             />
             <Step
-              imageSrc="/static/images/cd-template/reviewAndSelectBids.png"
+              imageSrc="/static/images/courierDostTemplate/reviewAndSelectBids.png"
               title="2) Review and Select Bids"
               description="Relax, compare, choose. Your package, your price."
             />
             <Step
-              imageSrc="/static/images/cd-template/trackYourShipments.png"
+              imageSrc="/static/images/courierDostTemplate/trackYourShipments.png"
               title="3) Track Your Shipments"
               description="Parcel on the move! Receive updates until it reaches its destination."
             />
