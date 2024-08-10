@@ -53,7 +53,6 @@ const stepTitle = {
 };
 
 const stepDescription = {
-  paddingLeft: "0.5rem",
   fontSize: "0.875rem",
   color: "#667085",
   margin: 0,

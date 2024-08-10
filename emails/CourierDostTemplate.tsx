@@ -77,7 +77,7 @@ const container = {
   margin: "0 auto",
 };
 const contentSpacing = {
-  padding: "0 3rem",
+  padding: "0 1rem",
 };
 
 const contentContainer = {

@@ -6,7 +6,6 @@ const footerStyles = {
   color: "#8A94A3",
   textAlign: "center" as const,
   lineHeight: "1.4",
-  fontSize: "10px",
 };
 
 const linkStyle = {
@@ -16,7 +15,13 @@ const linkStyle = {
 
 const Footer = () => (
   <Section style={footerStyles}>
-    <Text style={{ fontWeight: "bold", marginBottom: "0.25rem" }}>
+    <Text
+      style={{
+        fontWeight: "bold",
+        marginBottom: "0.25rem",
+        color: "rgb(0, 71, 143)",
+      }}
+    >
       Thank you for choosing CourierDost!
     </Text>
     <Text style={{ marginBottom: "0.5rem" }}>
