@@ -10,6 +10,7 @@ import {
   Text,
 } from "@react-email/components";
 import * as React from "react";
+import Footer from "../components/Footer";
 import LogoWithBackground from "../components/LogoWithBackground";
 import Step from "../components/Step";
 
@@ -57,6 +58,7 @@ export const CourierDostEmail = () => (
               description="Parcel on the move! Receive updates until it reaches its destination."
             />
           </Container>
+          <Footer />
         </Container>
       </Container>
     </Body>
