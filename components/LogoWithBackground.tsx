@@ -4,18 +4,16 @@ import * as React from "react";
 const LogoWithBackground = () => {
   return (
     <Section style={logoContainer}>
-      <div style={backgroundImageContainer}>
-        <Img
-          src="/static/images/courierDostTemplate/background.png"
-          alt="Background Image"
-          style={backgroundImage}
-        />
-        <Img
-          src="/static/images/courierDostTemplate/mainLogo.png"
-          alt="CourierDost Logo"
-          style={logo}
-        />
-      </div>
+      <Img
+        src="/static/images/bgWithLogo.png"
+        alt="Background Image with Logo"
+        style={{
+          textAlign: "center" as const,
+          width: "100%",
+          height: "auto",
+          zIndex: -1,
+        }}
+      />
     </Section>
   );
 };
@@ -23,32 +21,6 @@ const LogoWithBackground = () => {
 const logoContainer = {
   position: "relative" as const,
   textAlign: "center" as const,
-
-  zIndex: -1,
-};
-
-const backgroundImageContainer = {
-  position: "relative" as const,
-  display: "block",
-};
-
-const backgroundImage = {
-  position: "absolute" as const,
-  top: 0,
-  left: "50%",
-  transform: "translateX(-50%)",
-  width: "100%",
-  height: "auto",
-  zIndex: 0,
-};
-
-const logo = {
-  display: "block",
-  margin: "0 auto",
-  width: "200px",
-  position: "relative" as const,
-  paddingTop: "3rem",
-  zIndex: 1,
 };
 
 export default LogoWithBackground;
