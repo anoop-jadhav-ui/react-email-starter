@@ -17,9 +17,9 @@ const baseUrl = process.env.VERCEL_URL
   : "";
 
 export const PortfolioEmailTemplate = ({
-  name = "No Name Available",
-  email = "testemail@gmail.com",
-  message = "No message available",
+  name = "{{name}}",
+  email = "{{email}}",
+  message = "{{message}}",
 }) => (
   <Html>
     <Head />
@@ -29,7 +29,7 @@ export const PortfolioEmailTemplate = ({
         <Section style={logoContainer}>
           <Img
             alt="Portfolio Logo"
-            src={`${baseUrl}/static/images/portfolioAppLogo.png`}
+            src="http://api.anoopjadhav.in/images/portfolioAppLogo.png"
             width={200}
             height={50}
             style={{
