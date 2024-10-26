@@ -20,6 +20,7 @@ export const PortfolioEmailTemplate = ({
   name = "{{name}}",
   email = "{{email}}",
   message = "{{message}}",
+  section = "{{section}}",
 }) => (
   <Html>
     <Head />
@@ -39,7 +40,9 @@ export const PortfolioEmailTemplate = ({
         </Section>
         <Hr style={hr} />
         <Container style={content}>
-          <Text style={heading}>New Message Received!</Text>
+          <Text style={heading}>
+            New Message Received on {section} section!
+          </Text>
           <Section style={labelDataItem}>
             <Text style={title}>Name</Text>
             <Text style={value}>{name}</Text>
