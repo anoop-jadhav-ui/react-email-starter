@@ -41,7 +41,7 @@ export const PortfolioEmailTemplate = ({
         <Hr style={hr} />
         <Container style={content}>
           <Text style={heading}>
-            New Message Received on {section} section!
+            New Message Received from {section} section!
           </Text>
           <Section style={labelDataItem}>
             <Text style={title}>Name</Text>
